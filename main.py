@@ -1,5 +1,5 @@
 # python3
-
+import math 
 def parallel_processing(n, m, data):
     output = []
     x=0
