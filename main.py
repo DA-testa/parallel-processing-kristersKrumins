@@ -32,7 +32,7 @@ def main():
    
     result = parallel_processing(n,m,data)
     
-    for i,j in result
+    for i,j in result:
         print(i,j)
 
 
