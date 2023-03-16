@@ -4,9 +4,9 @@ def parallel_processing(n, m, data):
     output = []
     x=0
     time=0
-    while time<math.ceil(m/n):
+    while time < math.ceil(m/n):
         for i in range(n):
-            if j>=m:
+            if x>=m:
                 break
             if time ==0:
                 output.append((i,0))
